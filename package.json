@@ -1,0 +1,19 @@
+{
+  "name": "ts-march-2023",
+  "version": "1.0.0",
+  "description": "Typescript Training 08-10 March 2023",
+  "main": "index.js",
+  "scripts": {
+    "lab1": "ts-node src/lab1/todoLister.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaughan-rich/ts-march-2023.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaughan-rich/ts-march-2023/issues"
+  },
+  "homepage": "https://github.com/vaughan-rich/ts-march-2023#readme"
+}

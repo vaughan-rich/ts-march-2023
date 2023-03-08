@@ -1,9 +1,6 @@
 ### BBC Typescript Training 03/23
 
-#### Contents
-...
-
-#### TS Goals
+#### Goals of Typescript
 ![Typescript Goals](img/tsGoals.png)
 
 #### 7 Primitive Types in JS
