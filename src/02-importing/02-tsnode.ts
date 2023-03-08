@@ -1,5 +1,5 @@
 import { photos } from "../../data/photos.json";
-import { Photo } from "./photo";
+import { Photo } from "./types/photo";
 // tsc --init
 // resolveJsonModule: true  ~~~ l 38
 
