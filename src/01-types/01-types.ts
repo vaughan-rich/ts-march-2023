@@ -62,3 +62,35 @@
     const laptop = ScreenSize.Large;
     console.log(laptop);
 }
+
+{
+    // custom types
+
+    type UK = "England" | "Northern Ireland" | "Wales" | "Scotland"
+    let uk: UK
+    uk = "England";
+
+    function whichType(): UK {
+        return "England";
+        //return "Ireland"; // error message
+    }
+}
+
+{
+    // array/tuple
+
+    const fabFour: string[] = ['John', 'Paul', 'George', 'Ringo', 'George Martin'];
+    const myGeneration: Array<string> = ['Roger', 'Pete', 'John'];
+    fabFour.pop();
+    myGeneration.push('Keith');
+
+    const stuff: (string | number | boolean)[] = ['foo', 123, false];
+
+    let tupleArray: [number, string, string] = [1, 'two', '3'];
+   
+    tupleArray.push(10); // shouldn't let you do this, but it does?
+
+    //tupleArray[0] = 'one'; // error message 
+    //tupleArray[1] = 2; // error message
+
+}
