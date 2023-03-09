@@ -16,6 +16,7 @@
 ![Imports and Exports](img/importsAndExports.png)
 
 #### Links
+* [Miro Board](https://miro.com/app/board/uXjVOiRglBM=/)
 * [Typescript Playground](typescriptlang.org/play)
 * [Type Guards Documentation](typescriptlang.org/docs/handbook/advanced-types.html)
 * [Star Wars API](swapi.dev)
