@@ -102,4 +102,4 @@
     },
     "include": ["src"]
   }
-// todo: sort out project structure so that you can compile everything and it goes to the right place
+// todo: sort out whole project structure so that you can compile everything and it goes to the proper place
