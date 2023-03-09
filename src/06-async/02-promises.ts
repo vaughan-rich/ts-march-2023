@@ -44,17 +44,21 @@ Promise.allSettled([
 // Aborting a promise
 const ac = new AbortController();
 
-console.log('starting the fetch');
-fetch('https://api.github.com/usersd', {signal: ac.signal})
-    .then((response) => {
-        if (!response.ok) {
-            throw new Error();
-        }
-        response.json();
-    })
-    .then(data => console.log(data))
-    .catch((error) => console.log(error, 'problem with the fetch'));
+console.log("Starting the fetch!");
+fetch("https://api.github.com/users", { signal: ac.signal })
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error();
+    }
+    response.json();
+  })
+  .then((data) => console.log(data))
+  .catch((error) => {
+    if (error.name === "AbortError") {
+      console.log("The request was aborted.");
+      return;
+    }
+    console.log(error, "Problem with the fetch");
+  });
 
 ac.abort();
-
-// todo: add this abort stuff

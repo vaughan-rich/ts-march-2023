@@ -4,7 +4,8 @@
   "description": "Typescript Training 08-10 March 2023",
   "main": "",
   "scripts": {
-    "lab1": "ts-node src/lab1/todoLister.ts"
+    "lab1": "ts-node src/lab1/todoLister.ts",
+    "lab2": "ts-node src/lab2/src/app.ts"
   },
   "repository": {
     "type": "git",

@@ -24,3 +24,4 @@
 * [Structured Clone Algorithm](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm)
 * [Utility Types, for Type mapping](https://www.typescriptlang.org/docs/handbook/utility-types.html#picktype-keys)
 
+[comment]: <> (todo: refer back to beginning of day 1 recording - 'typescript does 4 things' and add to readme)

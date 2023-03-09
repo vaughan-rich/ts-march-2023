@@ -98,3 +98,5 @@ function getLaptop(make: string, model: string, year: number) {
     newNames === arrNames;
     newNames[0] === arrNames[0]
 }
+
+// todo: go back over the recording for this

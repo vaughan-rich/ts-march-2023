@@ -1,19 +1,20 @@
-type User = {
+{
+    type User = {
     name: string;
     location?: string;
-}
-interface Customer {
-    id: number | string;
-    lastLoggedIn: string | null;
-}
+    }
+    interface Customer {
+        id: number | string;
+        lastLoggedIn: string | null;
+    }
 
-const user: User = {
-    name: 'richard',
-    location: 'london'
-};
-user.name = 'ricardo';
-user.location = 'aosta';
-
+    const user: User = {
+        name: 'richard',
+        location: 'london'
+    };
+    user.name = 'ricardo';
+    user.location = 'aosta';
+}
 {
     // types vs interfaces
 
