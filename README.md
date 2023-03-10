@@ -19,6 +19,12 @@
 * `as` is a [type assertion](https://www.typescriptlang.org/docs/handbook/basic-types.html#type-assertions)
 * `is` is a [type predicate](https://www.typescriptlang.org/docs/handbook/advanced-types.html#using-type-predicates)
 
+####
+* Creating a Typescript React App:
+```
+npx create-react-app cra-app --template typescript
+```
+
 #### Links
 * [Miro Board](https://miro.com/app/board/uXjVOiRglBM=/)
 * [Typescript Playground](typescriptlang.org/play)
