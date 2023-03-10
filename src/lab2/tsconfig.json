@@ -103,3 +103,4 @@
     "include": ["src"]
   }
 // todo: sort out whole project structure so that you can compile everything and it goes to the proper place
+// todo: add 10-structuring-project directory and allow it to compile correctly

@@ -3,6 +3,22 @@
 #### Goals of Typescript
 ![Typescript Goals](img/tsGoals.png)
 
+#### Typescript Cheatsheets
+
+##### Control Flow Analysis
+![Control Flow Analysis](img/TypeScriptControlFlowAnalysis.png)
+
+##### Classes
+![Classes](img/TypeScriptClasses.png)
+
+##### Types
+![Types](img/TypeScriptTypes.png)
+
+##### Interfaces
+![Interfaces](img/TypeScriptInterfaces.png)
+
+[Link to original source of cheatsheets is here](https://www.typescriptlang.org/cheatsheets)
+
 #### 7 Primitive Types in JS
 * Number
 * String
@@ -38,4 +54,4 @@ npx create-react-app cra-app --template typescript
 * [Webpack](https://webpack.js.org)
 * [Vite](https://vitejs.dev/guide/)
 
-[comment]: <> (todo: refer back to beginning of day 1 recording - 'typescript does 4 things'. Add this to readme and tidy everything up. Also, add 10-structuring-project directory and allow it to compile correctly)
+[comment]: <> (todo: refer back to beginning of day 1 recording - 'typescript does 4 things'. Add this to readme and tidy everything up.)
