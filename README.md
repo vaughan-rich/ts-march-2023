@@ -1,5 +1,7 @@
 ### BBC Typescript Training 03/23
 
+3-day course on Typescript, delivered by [Kevin Cunningham](https://www.kevincunningham.co.uk) for the BBC.
+
 #### Goals of Typescript
 ![Typescript Goals](img/tsGoals.png)
 
