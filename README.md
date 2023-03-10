@@ -35,5 +35,7 @@ npx create-react-app cra-app --template typescript
 * [Utility Types, for Type mapping](https://www.typescriptlang.org/docs/handbook/utility-types.html#picktype-keys)
 * [Migrating from Javascript to Typescript](https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html)
 * [Book on Functional Programming in JS](https://github.com/MostlyAdequate/mostly-adequate-guide)
+* [Webpack](https://webpack.js.org)
+* [Vite](https://vitejs.dev/guide/)
 
-[comment]: <> (todo: refer back to beginning of day 1 recording - 'typescript does 4 things' and add to readme)
+[comment]: <> (todo: refer back to beginning of day 1 recording - 'typescript does 4 things'. Add this to readme and tidy everything up. Also, add 10-structuring-project directory and allow it to compile correctly)
